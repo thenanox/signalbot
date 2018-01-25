@@ -1,0 +1,18 @@
+{
+  "name": "signalbot",
+  "version": "0.1.0",
+  "description": "Bot that handles different signals and transform on exchange orders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thenanox@gmail.com",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ansicolor": "^1.1.71",
+    "as-table": "^1.0.31",
+    "asciichart": "^1.5.7",
+    "ccxt": "^1.10.840",
+    "ololog": "^1.1.84"
+  }
+}
