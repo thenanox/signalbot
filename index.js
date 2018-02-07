@@ -10,8 +10,8 @@ let sleep = (ms) => new Promise (resolve => setTimeout (resolve, ms));
 
 (async () => {
     let exchange = new ccxt.bittrex  ({
-        "apiKey": "508aef57f65e4335a70ec013457f4aaf",
-        "secret": "4ee3786e433f4778bcc87599c03a5208",
+        "apiKey": "x",
+        "secret": "x",
     })
     try {
         const orders = await exchange.fetchOrders ()
